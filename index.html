@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio BTS SIO SISR – Solutions Informatiques et Sécurité des Réseaux" />
+  <meta name="robots" content="index, follow" />
+  <title>[Zoha] – Portfolio BTS SIO · SISR</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Feuille de styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Barre de progression de lecture -->
+  <div class="scroll-progress" id="progress-bar"></div>
+
+  <!-- ═══════════════════════════════════════
+       NAVBAR
+  ═══════════════════════════════════════ -->
+  <nav>
+    <div>
+      <div class="nav-brand"><span>[</span>Zoha<span>]</span></div>
+      <div class="nav-sub">BTS SIO · SISR</div>
+    </div>
+
+    <ul class="nav-links">
+      <li><a href="#hero" class="active">Accueil</a></li>
+      <li><a href="#cv">CV / Stages</a></li>
+      <li><a href="#entreprise">Entreprise</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#e5">E5</a></li>
+      <li><a href="#e6">E6</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <!-- Bouton thème clair / sombre -->
+      <button class="theme-toggle" id="theme-btn" aria-label="Basculer le thème">
+        <span class="toggle-icon sun">☀️</span>
+        <span class="toggle-icon moon">🌙</span>
+      </button>
+      <!-- Hamburger mobile -->
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Menu mobile -->
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#hero">Accueil</a>
+    <a href="#cv">CV / Stages</a>
+    <a href="#entreprise">Entreprise</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#e5">E5</a>
+    <a href="#e6">E6</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       MAIN
+  ═══════════════════════════════════════ -->
+  <main>
+
+    <!-- ── HERO ── -->
+    <section id="hero">
+      <div class="hero-inner">
+
+        <div>
+          <p class="hero-tag">// BTS SIO · Option SISR</p>
+          <h1 class="hero-name">Zoha<br><span class="blue">Portfolio</span></h1>
+          <p class="hero-sub">Solutions Informatiques et Sécurité des Réseaux — En alternance chez Orange Wholesale France.</p>
+          <a href="#cv" class="hero-btn">Voir mes travaux →</a>
+        </div>
+
+        <!-- Terminal décoratif -->
+        <div class="terminal fade-in">
+          <div class="terminal-bar">
+            <span class="dot r"></span>
+            <span class="dot y"></span>
+            <span class="dot g"></span>
+            <span style="margin-left:0.5rem;font-size:0.75rem;color:var(--text2);">$ cat profil.txt</span>
+          </div>
+          <div class="terminal-body">
+            <div><span class="cmd">$</span> cat profil.txt</div>
+            <div><span class="key">Nom</span>    <span style="color:var(--accent);">:</span> <span class="val">Zoha</span></div>
+            <div><span class="key">BTS</span>    <span style="color:var(--accent);">:</span> <span class="val">SIO – SISR</span></div>
+            <div><span class="key">Focus</span>  <span style="color:var(--accent);">:</span> <span class="val">Réseaux &amp; Sécurité</span></div>
+            <div><span class="key">Statut</span> <span style="color:var(--accent);">:</span> <span class="val">En alternance</span></div>
+            <div><span class="key">Lieu</span>   <span style="color:var(--accent);">:</span> <span class="val">Orange Wholesale France</span></div>
+            <div><span class="cmd">$</span> <span class="cursor"></span></div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── CV / STAGES ── -->
+    <section id="cv">
+      <div class="container">
+
+        <!-- Curriculum Vitæ -->
+        <div class="fade-in">
+          <p class="section-num">01.</p>
+          <h2 class="section-title">Curriculum Vitæ</h2>
+          <p class="section-desc">Mon parcours, mes compétences et mes expériences au format PDF.</p>
+
+          <div class="doc-grid">
+            <div class="doc-card">
+              <div class="doc-icon">📄</div>
+              <div class="doc-info">
+                <div class="doc-name">Curriculum Vitæ – Zoha</div>
+                <div class="doc-sub">Dernière mise à jour : 2025</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/cv.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/cv.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="section-divider" />
+
+        <!-- Stages -->
+        <div class="fade-in">
+          <p class="section-num">01.b</p>
+          <h2 class="section-title">Stages &amp; Expériences</h2>
+          <p class="section-desc">Rapports de stages réalisés dans le cadre de ma formation.</p>
+
+          <div class="doc-grid">
+
+            <div class="doc-card">
+              <div class="doc-icon">🐍</div>
+              <div class="doc-info">
+                <div class="doc-name">Stage 1 – Programmation en Python</div>
+                <div class="doc-sub">2023</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/stage1.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/stage1.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🤖</div>
+              <div class="doc-info">
+                <div class="doc-name">Stage 2 – Intelligence artificielle, ses promesses et limites</div>
+                <div class="doc-sub">2023</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/stage2.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/stage2.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🐍</div>
+              <div class="doc-info">
+                <div class="doc-name">Stage 3 – Programmation en Python</div>
+                <div class="doc-sub">2022</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/stage3.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/stage3.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🚀</div>
+              <div class="doc-info">
+                <div class="doc-name">Stage 4 – Science et Science-Fiction</div>
+                <div class="doc-sub">2022</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/stage4.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/stage4.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">💻</div>
+              <div class="doc-info">
+                <div class="doc-name">Stage 5 – Marathon de codage</div>
+                <div class="doc-sub">2022</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/stage5.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/stage5.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🔬</div>
+              <div class="doc-info">
+                <div class="doc-name">Stage 6 – Science Ouverte à Paris Nord</div>
+                <div class="doc-sub">2022</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/stage6.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/stage6.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── ENTREPRISE ── -->
+    <section id="entreprise" class="bg-alt">
+      <div class="container">
+        <div class="fade-in">
+          <p class="section-num">02.</p>
+          <h2 class="section-title">Présentation de l'entreprise</h2>
+          <p class="section-desc">Découvrez l'entreprise qui m'accueille en alternance.</p>
+
+          <div class="doc-card" style="margin-bottom:2rem;">
+            <div class="doc-icon">🏢</div>
+            <div class="doc-info">
+              <div class="doc-name">Présentation – Orange Wholesale France</div>
+              <div class="doc-sub">Plaquette / document de présentation</div>
+            </div>
+            <div class="doc-actions">
+              <a href="files/entreprise.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+              <a href="files/entreprise.pdf" download class="btn-dl">⬇ Télécharger</a>
+            </div>
+          </div>
+
+          <div style="background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:1.8rem;font-size:0.85rem;color:var(--text2);line-height:1.8;">
+            Ce document présente l'entreprise dans laquelle j'effectue mon alternance, à savoir
+            <strong style="color:var(--text);">Orange</strong>, au sein de l'entité
+            <strong style="color:var(--text);">Orange Wholesale France</strong>. Il permet de situer
+            mon environnement professionnel, mon service d'accueil, mon rôle ainsi que les principales
+            missions que je réalise dans le cadre de ma formation.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CERTIFICATIONS ── -->
+    <section id="certifications">
+      <div class="container">
+        <div class="fade-in">
+          <p class="section-num">03.</p>
+          <h2 class="section-title">Certifications</h2>
+          <p class="section-desc">Certifications obtenues dans le cadre de ma formation BTS SIO SISR.</p>
+
+          <div class="doc-grid">
+
+            <div class="doc-card">
+              <div class="doc-icon">🔐</div>
+              <div class="doc-info">
+                <div class="doc-name">Certification 1 – Introduction à la cybersécurité</div>
+                <div class="doc-sub">Cisco Networking Academy</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/cert1.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/cert1.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🇬🇧</div>
+              <div class="doc-info">
+                <div class="doc-name">Certification 2 – English for IT 1</div>
+                <div class="doc-sub">Certification linguistique</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/cert2.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/cert2.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🇬🇧</div>
+              <div class="doc-info">
+                <div class="doc-name">Certification 3 – English for IT 2</div>
+                <div class="doc-sub">Certification linguistique</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/cert3.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/cert3.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🌐</div>
+              <div class="doc-info">
+                <div class="doc-name">Certification 4 – Premiers pas avec Cisco Packet Tracer</div>
+                <div class="doc-sub">Cisco Networking Academy</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/cert4.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/cert4.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+            <div class="doc-card">
+              <div class="doc-icon">🖥️</div>
+              <div class="doc-info">
+                <div class="doc-name">Certification 5 – Les bases du matériel informatique</div>
+                <div class="doc-sub">Cisco Networking Academy</div>
+              </div>
+              <div class="doc-actions">
+                <a href="files/cert5.pdf" target="_blank" rel="noopener" class="btn-open">↗ Ouvrir</a>
+                <a href="files/cert5.pdf" download class="btn-dl">⬇ Télécharger</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── E5 ── -->
+    <section id="e5" class="bg-alt">
+      <div class="container">
+        <div class="fade-in">
+          <p class="section-num">04.</p>
+          <h2 class="section-title">Épreuve E5</h2>
+          <p class="section-desc">Documents et missions réalisés dans le cadre de l'épreuve E5 – Support et mise à disposition de services informatiques.</p>
+
+          <!-- Tableau de synthèse (téléchargement forcé) -->
+          <div class="e5-synthese">
+            <span class="e5-badge">📊 Synthèse</span>
+            <div style="flex:1">
+              <div style="font-family:var(--display);font-weight:700;font-size:0.9rem;color:var(--text);margin-bottom:0.25rem;">Tableau de synthèse E5</div>
+              <div style="font-size:0.75rem;color:var(--text2);">Document officiel – téléchargement uniquement</div>
+            </div>
+            <a href="files/e5-synthese.pdf" download class="btn-dl">⬇ Télécharger</a>
+          </div>
+
+          <!-- Grille des missions -->
+          <div class="missions-grid">
+
+            <!-- Veille technologique -->
+            <div class="mission-card">
+              <div class="mission-title">🔍 Veille technologique <span class="mission-tag">Mission</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document principal</span>
+                  <a href="files/e5-veille.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission 2 – IA fibre -->
+            <div class="mission-card">
+              <div class="mission-title">🤖 Mission 2 – Assistant IA fibre optique <span class="mission-tag">2 fichiers</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document Principal</span>
+                  <a href="files/e5-m2-principal.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+                <div class="mission-file">
+                  <span class="mission-file-name">Annexe A – Cahier du chargé</span>
+                  <a href="files/e5-m2-annexeA.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission 3 – POB -->
+            <div class="mission-card">
+              <div class="mission-title">📡 Mission 3 – Mission POB <span class="mission-tag">Mission</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document principal</span>
+                  <a href="files/e5-m3-pob.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission RAC -->
+            <div class="mission-card">
+              <div class="mission-title">👔 Mission RAC – Responsable Affaires Client <span class="mission-tag">3 fichiers</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document Principal</span>
+                  <a href="files/e5-rac-principal.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+                <div class="mission-file">
+                  <span class="mission-file-name">Annexe A – Technique</span>
+                  <a href="files/e5-rac-annexeA.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+                <div class="mission-file">
+                  <span class="mission-file-name">Annexe B – POC</span>
+                  <a href="files/e5-rac-annexeB.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Mission GLPI -->
+            <div class="mission-card">
+              <div class="mission-title">🎫 Mission GLPI <span class="mission-tag">2 fichiers</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document Principal</span>
+                  <a href="files/e5-glpi-principal.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+                <div class="mission-file">
+                  <span class="mission-file-name">Annexe</span>
+                  <a href="files/e5-glpi-annexe.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Sauvegarde -->
+            <div class="mission-card">
+              <div class="mission-title">💾 Sauvegarde <span class="mission-tag">Mission</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document principal</span>
+                  <a href="files/e5-sauvegarde.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Migration réseau -->
+            <div class="mission-card">
+              <div class="mission-title">🌐 Migration du parc réseau <span class="mission-tag">Mission</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document principal</span>
+                  <a href="files/e5-migration.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Ticketing -->
+            <div class="mission-card">
+              <div class="mission-title">🗂️ Mission Ticketing <span class="mission-tag">Mission</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document principal</span>
+                  <a href="files/e5-ticketing.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Virtualisation -->
+            <div class="mission-card">
+              <div class="mission-title">🖥️ Virtualisation <span class="mission-tag">Mission</span></div>
+              <div class="mission-files">
+                <div class="mission-file">
+                  <span class="mission-file-name">Document principal</span>
+                  <a href="files/e5-virtualisation.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+          </div><!-- /missions-grid -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ── E6 ── -->
+    <section id="e6">
+      <div class="container">
+        <div class="fade-in">
+          <p class="section-num">05.</p>
+          <h2 class="section-title">Épreuve E6</h2>
+          <p class="section-desc">Situations professionnelles documentées dans le cadre de l'épreuve E6 – Cybersécurité des services informatiques.</p>
+
+          <div class="e6-grid">
+
+            <!-- Situation Réseau -->
+            <div class="e6-card">
+              <div class="e6-label">Situation 01</div>
+              <div class="e6-title">🌐 Situation Réseau</div>
+              <div class="e6-files">
+                <div class="e6-file">
+                  <span>Fiche de situation</span>
+                  <a href="files/e6-reseau-fiche.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+                <div class="e6-file">
+                  <span>Fiche de production</span>
+                  <a href="files/e6-reseau-production.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Situation Système -->
+            <div class="e6-card">
+              <div class="e6-label">Situation 02</div>
+              <div class="e6-title">🖥️ Situation Système</div>
+              <div class="e6-files">
+                <div class="e6-file">
+                  <span>Fiche de situation</span>
+                  <a href="files/e6-systeme-fiche.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+                <div class="e6-file">
+                  <span>Fiche de production</span>
+                  <a href="files/e6-systeme-production.pdf" target="_blank" rel="noopener">↗ Ouvrir</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CONTACT ── -->
+    <section id="contact" class="bg-alt">
+      <div class="container">
+        <div class="fade-in">
+          <p class="section-num">06.</p>
+          <h2 class="section-title">Contact</h2>
+          <p class="section-desc">Vous souhaitez me contacter ? Je suis disponible par e-mail ou via le formulaire ci-dessous.</p>
+
+          <div class="contact-grid">
+
+            <!-- Coordonnées -->
+            <div class="contact-info">
+              <div class="info-item">
+                <div class="info-icon">📧</div>
+                <div>
+                  <div class="info-label">Email</div>
+                  <div>votre.email@example.com</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">🏫</div>
+                <div>
+                  <div class="info-label">Formation</div>
+                  <div>BTS SIO – Option SISR</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">🏢</div>
+                <div>
+                  <div class="info-label">Alternance</div>
+                  <div>Orange Wholesale France</div>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">📍</div>
+                <div>
+                  <div class="info-label">Localisation</div>
+                  <div>Île-de-France, France</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Formulaire -->
+            <div>
+              <div class="form-success" id="form-success">
+                ✅ Message envoyé ! Je vous répondrai dans les meilleurs délais.
+              </div>
+              <div class="contact-form" id="contact-form">
+                <div class="form-group">
+                  <label for="nom">Nom complet</label>
+                  <input type="text" id="nom" name="nom" placeholder="Jean Dupont" required />
+                </div>
+                <div class="form-group">
+                  <label for="email">Adresse e-mail</label>
+                  <input type="email" id="email" name="email" placeholder="jean@example.com" required />
+                </div>
+                <div class="form-group">
+                  <label for="sujet">Sujet</label>
+                  <select id="sujet" name="sujet">
+                    <option value="">Sélectionnez un sujet</option>
+                    <option>Candidature / Recrutement</option>
+                    <option>Information sur le portfolio</option>
+                    <option>Demande de CV</option>
+                    <option>Autre</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" placeholder="Votre message..." required></textarea>
+                </div>
+                <button type="button" class="form-submit" onclick="submitForm()">Envoyer →</button>
+                <p class="rgpd-note">
+                  🔒 Conformément au RGPD, vos données personnelles sont uniquement utilisées pour
+                  traiter votre demande et ne seront jamais partagées avec des tiers. Vous disposez
+                  d'un droit d'accès, de rectification et de suppression de vos données.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════ -->
+  <footer>
+    <p>© 2025 <span class="accent">[Zoha]</span> — BTS SIO · SISR · Tous droits réservés</p>
+    <p style="margin-top:0.4rem;">
+      Portfolio conçu pour l'épreuve BTS SIO SISR —
+      <a href="#" class="footer-link">Politique de confidentialité</a>
+    </p>
+  </footer>
+
+  <!-- ═══════════════════════════════════════
+       BANDEAU COOKIE (RGPD)
+  ═══════════════════════════════════════ -->
+  <div id="cookie-banner">
+    <div class="cookie-text">
+      🍪 Ce site utilise uniquement des cookies techniques nécessaires à son bon fonctionnement.
+      Aucune donnée n'est transmise à des tiers.
+      <a href="#">En savoir plus</a>
+    </div>
+    <div class="cookie-btns">
+      <button class="cookie-accept" onclick="acceptCookies()">Accepter</button>
+      <button class="cookie-decline" onclick="declineCookies()">Refuser</button>
+    </div>
+  </div>
+
+  <!-- Script principal -->
+  <script src="script.js"></script>
+
+</body>
+</html>
